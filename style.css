@@ -278,6 +278,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .header .btn { padding: 10px 24px; font-size: .85rem; }
 
+.lang-switcher {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--gray-200);
+  background: var(--white);
+  color: var(--gray-700);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: var(--transition);
+}
+
+.lang-switcher:hover {
+  border-color: var(--blue);
+}
+
+.lang-switcher:focus {
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px rgba(232, 86, 26, 0.1);
+}
+
 .mobile-toggle {
   display: none;
   flex-direction: column;
